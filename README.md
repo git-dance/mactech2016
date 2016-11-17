@@ -52,14 +52,14 @@ Clone, branch, add, commit, push, pull request, review, deploy, and merge in a s
 ```
 
 ### Hands on exercise
- Fork this repo!
+ #### Fork this repo!
  ![fork](https://cloud.githubusercontent.com/assets/7864613/20375644/3ba74de2-ac35-11e6-82c6-008dcdd6efb1.gif)
 
  Click the `Fork` button in the upper right. If you're a member of any orgs, make sure to choose your own account.
 
  You'll see the forked repo appear with your own name in the upper left.
 
- Clone your fork locally!
+ #### Clone your fork locally!
  ![clone](https://cloud.githubusercontent.com/assets/7864613/20375643/3ba5dcbe-ac35-11e6-9e6e-b02fba130da3.gif)
 
  Click the `Clone or download` button and copy the URL for your repo.
@@ -71,12 +71,12 @@ Clone, branch, add, commit, push, pull request, review, deploy, and merge in a s
  ```
 ![cli-clone](https://cloud.githubusercontent.com/assets/7864613/20375641/3ba16bfc-ac35-11e6-9182-a01a39d7afe8.gif)
 
-HTTPS or SSH?  
+#### HTTPS or SSH?  
 If you're using HTTPS and don't have your [credential cached](https://help.github.com/articles/caching-your-github-password-in-git/), you'll be prompted for your username and password. If you have 2FA enabled on your account, you'll need to generate a [personal access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/).
 
 If you don't already have an SSH key set up, you'll need to [add one to your account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/).
 
-Optional: add current git branch to Bash prompt  
+#### Optional: add current git branch to Bash prompt  
 First let's see if you already have a `.bash_profile` in your home directory:
 ```
 ls -al ~/ |grep .bash
@@ -94,7 +94,7 @@ cat ~/.bash_profile .bash_profile > ~/.bash_profile
 . ~/.bash_profile
 ```
 
-Branch!
+#### Branch!
 ![cli-branch](https://cloud.githubusercontent.com/assets/7864613/20375640/3b9fd95e-ac35-11e6-8531-0921487f153c.gif)
 
 Make a new branch and check it out in one step:
@@ -102,7 +102,7 @@ Make a new branch and check it out in one step:
 git checkout -b hello-world
 ```
 
-Add your hello!
+#### Add your hello!
 ![cli-add](https://cloud.githubusercontent.com/assets/7864613/20375639/3b952b94-ac35-11e6-841e-881940226841.gif)
 
 In the text editor of your choice, create a file in the `hello-world` directory of the repo with your name as the filename. Then do a `git add` to track the new file:
@@ -123,11 +123,18 @@ git commit -m"Say hello"
 ```
 Optional: do `git status` again.
 
-Push your branch!
+#### Push your branch!
 ![cli-push](https://cloud.githubusercontent.com/assets/7864613/20375636/3b91b072-ac35-11e6-8af8-837a6ec20053.gif)
 ```
 git push -u origin HEAD
 ```
 
-Create a pull request!
+#### Create a pull request!
 ![gui-pr](https://cloud.githubusercontent.com/assets/7864613/20375634/3b8e07ba-ac35-11e6-9f8c-2f6d95af8f61.gif)
+
+### Best practices and other closing thoughts
+- [Good commit messages](http://chris.beams.io/posts/git-commit/)
+- [Good PR descriptions](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
+
+### Additional resources
+https://github.com/progit/progit2
