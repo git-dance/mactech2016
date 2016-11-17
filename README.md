@@ -123,6 +123,14 @@ git commit -m"Say hello"
 ```
 Optional: do `git status` again.
 
+If you've never used git at all on your computer, the commit will fail and you'll be prompted to run the following:
+
+```
+git config --global user.email "you@example.com"
+git config --global user.name "your name"
+```
+Do that and run `git commit` again.
+
 #### Push your branch!
 ![cli-push](https://cloud.githubusercontent.com/assets/7864613/20375636/3b91b072-ac35-11e6-8af8-837a6ec20053.gif)
 ```
