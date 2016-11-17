@@ -72,7 +72,7 @@ Clone, branch, add, commit, push, pull request, review, deploy, and merge in a s
 ![cli-clone](https://cloud.githubusercontent.com/assets/7864613/20375641/3ba16bfc-ac35-11e6-9182-a01a39d7afe8.gif)
 
 #### HTTPS or SSH?  
-If you're using HTTPS and don't have your [credential cached](https://help.github.com/articles/caching-your-github-password-in-git/), you'll be prompted for your username and password. If you have 2FA enabled on your account, you'll need to generate a [personal access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/).
+If you're using HTTPS and don't have your [credential cached](https://help.github.com/articles/caching-your-github-password-in-git/), you'll be prompted for your username and password when you push. If you have 2FA enabled on your account, you'll need to generate a [personal access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/).
 
 If you don't already have an SSH key set up, you'll need to [add one to your account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/).
 
