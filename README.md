@@ -131,10 +131,36 @@ git push -u origin HEAD
 
 #### Create a pull request!
 ![gui-pr](https://cloud.githubusercontent.com/assets/7864613/20375634/3b8e07ba-ac35-11e6-9f8c-2f6d95af8f61.gif)
+You can either submit your pull request (PR) to the upstream in the git-dance org, or just the master branch in your own repo. When creating a PR, you can compare any branch to any branch. The base is what you want to merge into. But sometimes you compare two branches with no intention of merging, just to talk about the diff.
+
+If you want to be able merge your own PR, make the base your own master. You’ll see a merge button after you create it because you have permission to merge in your own repo. But if you submit it to the git-dance org, a maintainer will have to approve it.
+
+There’s a new feature that you can opt to allow maintainers to make commits on your branch, which is nice -- it can save some back-and-forth with commenting.
+
+#### Merge!
+If you made the base branch the master in your own repo, you can merge your PR yourself! :tada:
+
+If you submitted it to the git-dance org, I'll review it as soon as I can!
+
+### More branching
+Check out the [network graph](https://github.com/munki/munki/network) on Munki or any open-source project for a visualization of how multiple collaborators can work in the same repo.
+
+Another fun one:
+https://twitter.com/jay_gee/status/703360688618536960
 
 ### Best practices and other closing thoughts
+At GitHub we use GitHub to build GitHub. In ways, we’re like a microcosm of the open-source community. At GitHub, you should never be afraid to ask a question or ask for help. But that being said, it’s appreciated if you search for prior art.
+
+Because you can track how something has changed, and why, there’s a rich context for how something was built. You can use that context when trying to figure out a problem. The internet is a big place, and someone else may have already solved the same problem. If they write good commit messages and comments, it’s like you have the magic power to go back in time and get in their brain and see how they solved it!
+
+When you document as you go, you’re doing a service to everyone on the internet, but also you're doing a favor to your future self.
 - [Good commit messages](http://chris.beams.io/posts/git-commit/)
 - [Good PR descriptions](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
 
+But just as the internet can be a wonderful place, it can also be a terrible place! Remember that your goal is to communicate and collaborate with other humans. Keep it classy.
+
 ### Additional resources
-https://github.com/progit/progit2
+- [Pro Git](https://github.com/progit/progit2) -- Source for the free online book, rendered [here](https://git-scm.com/book/en/v2).
+- [On-Demand Training](https://github.github.com/on-demand/intro-to-github/)
+- [tryGit by Code School](http://try.github.io/)
+- [And more!](https://services.github.com/classnotes/)
